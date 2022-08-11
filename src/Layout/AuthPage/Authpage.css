@@ -5,7 +5,10 @@
     background: -webkit-linear-gradient(315deg, hsla(207, 47%, 44%, 1) 2%, hsla(207, 88%, 23%, 1) 20%, hsla(334, 54%, 44%, 1) 58%, hsla(352, 86%, 53%, 1) 83%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3C76A5", endColorstr="#074170", GradientType=1 );
     height: auto;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
