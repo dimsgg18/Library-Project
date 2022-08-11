@@ -13,10 +13,10 @@ export const LoginPage = () => {
               <input className='input username' type="text" placeholder='Username' />
               <br />
               <input className='input password' type="password" placeholder='Password' />
-              <a href="#">Forgot Password?</a>
+              <a href="/forgotpass">Forgot Password?</a>
               <button>Login</button>
             </AuthInputBox>
-            <p>Dont have an account?<a href="#">Sign up</a> here</p>
+            <p>Dont have an account?<a href="/signup">Sign up</a> here</p>
         </InLoginBox>
       </LoginBox>
     </AuthPage>
